@@ -1,0 +1,27 @@
+/* tslint:disable */
+/* eslint-disable */
+
+import React, { FunctionComponent } from 'react';
+import { ViewProps } from 'react-native';
+#svgComponents#
+#imports#
+#exports#
+
+export type IconNames = '#names#';
+
+interface Props extends GProps, ViewProps {
+  name: IconNames;
+  size?: number;
+  color?: string | string[];
+}
+
+let IconFont: FunctionComponent<Props> = ({ name, ...rest }) => {
+  switch (name) {
+#cases#  }
+
+  return null;
+};
+
+IconFont = React.memo ? React.memo(IconFont) : IconFont;
+
+export default IconFont;
