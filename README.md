@@ -167,7 +167,7 @@ export const App = () => {
 当您在iconfont.cn中的图标有变更时，只需更改配置`symbol_url`，然后再次执行`Step 4`即可生成最新的图标组件
 ```bash
 # 修改 symbol_url 配置后执行：
-npx iconfont-rn
+npx iconpark-rn
 ```
 
 
