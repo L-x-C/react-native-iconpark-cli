@@ -1,11 +1,14 @@
-## react-native-iconfont-cli
-用纯JS把iconfont.cn的图标转换成RN组件，不依赖字体，支持多色彩，支持热更新
+## 前沿
+基于[react-native-iconfont-cli](https://github.com/iconfont-cli/react-native-iconfont-cli)改造，用于适配iconpark
 
-![](https://github.com/fwh1990/react-native-iconfont-cli/blob/master/images/icons.png?raw=true)
+## react-native-iconpark-cli
+用纯JS把iconpark.oceanengine.com的图标转换成RN组件，不依赖字体，支持多色彩，支持热更新
+
+![](https://github.com/L-x-C/react-native-iconpark-cli/blob/master/images/icons.png?raw=true)
 
 ## 痛点
 
-通常地，当我们想在RN里使用iconfont，我们可能会借助`react-native-vector-icons`导入ttf字体文件，或者直接手动下载各个svg文件到本地，然后单个使用。
+通常地，当我们想在RN里使用iconpark，我们可能会借助`react-native-vector-icons`导入ttf字体文件，或者直接手动下载各个svg文件到本地，然后单个使用。
 
 使用ttf字体有一个弊端，就是每次更新图标，都要相应的更新ttf文件，然后再次打包发布APP。而且ttf不支持多种色彩的图标，导致所有图标都是单色。如果你是借助`react-native-vector-icons`，该库内置了10多套ttf文件，合起来有`2M`左右；你可能用不到它们，但是它们仍然会被打包进你的APP里。
 
@@ -13,7 +16,7 @@
 
 --------
 
-为了解决这些问题，我用纯Javascript实现iconfont到React组件的转换操作，**不需要依赖ttf字体文件**，不需要手动下载图标到本地。
+为了解决这些问题，我用纯Javascript实现iconpark到React组件的转换操作，**不需要依赖ttf字体文件**，不需要手动下载图标到本地。
 
 ## 特性
 
@@ -30,11 +33,11 @@
 ```bash
 # Yarn
 yarn add react-native-svg
-yarn add react-native-iconfont-cli --dev
+yarn add react-native-iconpark-cli --dev
 
 # Npm
 npm install react-native-svg
-npm install react-native-iconfont-cli --save-dev
+npm install react-native-iconpark-cli --save-dev
 ```
 
 # Step 2

@@ -1,22 +1,21 @@
 {
   "name": "react-native-iconpark-cli",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "main": "index.js",
   "keywords": [
-    "iconfont",
+    "iconpark",
     "react-native",
-    "react-native-iconfont",
+    "react-native-iconpark",
     "icon",
-    "icons",
-    "iconfont.cn"
+    "icons"
   ],
-  "repository": "git@github.com:iconfont-cli/react-native-iconfont-cli.git",
+  "repository": "git@github.com:L-x-C/react-native-iconpark-cli.git",
   "author": "lxc <lxc11235@gmail.com>",
   "license": "MIT",
   "bin": {
-    "iconfont": "./commands/help.js",
-    "iconfont-init": "./commands/createJson.js",
-    "iconfont-rn": "./commands/createIcon.js"
+    "iconpark": "./commands/help.js",
+    "iconpark-init": "./commands/createJson.js",
+    "iconpark-rn": "./commands/createIcon.js"
   },
   "peerDependencies": {
     "react": "*",
