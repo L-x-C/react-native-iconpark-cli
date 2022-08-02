@@ -4,7 +4,7 @@
 ## react-native-iconpark-cli
 用纯JS把iconpark.oceanengine.com的图标转换成RN组件，不依赖字体，支持多色彩，支持热更新
 
-![](https://github.com/L-x-C/react-native-iconpark-cli/blob/master/images/icons.png?raw=true)
+![](https://github.com/L-x-C/react-native-iconpark-cli/blob/main/images/icons.png?raw=true)
 
 ## 痛点
 
@@ -53,7 +53,7 @@ cd ios && pod install
 # Step 3
 生成配置文件
 ```bash
-npx iconfont-init
+npx iconpark-init
 ```
 此时项目根目录会生成一个`iconfont.json`的文件，内容如下：
 ```json
@@ -68,11 +68,10 @@ npx iconfont-init
 ```
 ### 配置参数说明：
 ### symbol_url
-请直接复制[iconfont](http://iconfont.cn)官网提供的项目链接。请务必看清是`.js`后缀而不是.css后缀。如果你现在还没有创建iconfont的仓库，那么可以填入这个链接去测试：`http://at.alicdn.com/t/font_1373348_ghk94ooopqr.js`
-
+请直接复制[iconpark](https://iconpark.oceanengine.com/)官网提供的项目链接。请务必看清是`.js`后缀而不是.css后缀
 <br />
 
-![](https://github.com/fwh1990/react-native-iconfont-cli/blob/master/images/symbol-url.png?raw=true)
+![](https://github.com/L-x-C/react-native-iconpark-cli/blob/main/images/symbol-url.png?raw=true)
 
 ### use_typescript
 如果您的项目使用Typescript编写，请设置为true。这个选项将决定生成的图标组件是`.tsx`还是`.js`后缀。
@@ -99,7 +98,7 @@ npx iconfont-init
 # Step 4
 开始生成React-Native标准组件
 ```bash
-npx iconfont-rn
+npx iconpark-rn
 ```
 
 生成后查看您设置的保存目录中是否含有所有的图标，你可以参考[snapshots目录](https://github.com/iconfont-cli/react-native-iconfont-cli/tree/master/snapshots)的快照文件，以区分不同模式下的图标结构。
@@ -143,7 +142,7 @@ export const App = () => {
 ```typescript jsx
 <IconFont name="alipay" size={20} />
 ```
-![](https://github.com/fwh1990/react-native-iconfont-cli/blob/master/images/default-color-icon.png?raw=true)
+![](https://github.com/L-x-C/react-native-iconpark-cli/blob/main/images/default-color-icon.png?raw=true)
 ### 图标单色
 单色图标，如果不指定颜色值，图标将渲染原本的颜色。如果你想设置为其他的颜色，那么设置一个你想要的颜色即可。
 
@@ -152,7 +151,7 @@ export const App = () => {
 ```typescript jsx
 <IconFont name="alipay" color="green" />
 ```
-![](https://github.com/fwh1990/react-native-iconfont-cli/blob/master/images/one-color-icon.png?raw=true)
+![](https://github.com/L-x-C/react-native-iconpark-cli/blob/main/images/one-color-icon.png?raw=true)
 
 ### 图标多色彩
 多色彩的图标，如果不指定颜色值，图标将渲染原本的多色彩。如果你想设置为其他的颜色，那么设置一组你想要的颜色即可
@@ -162,7 +161,7 @@ export const App = () => {
 颜色组的数量以及排序，需要根据当前图标的信息来确定。您需要进入图标组件中查看并得出结论。
 
 
-![](https://github.com/fwh1990/react-native-iconfont-cli/blob/master/images/multi-color-icon.png?raw=true)
+![](https://github.com/L-x-C/react-native-iconpark-cli/blob/main/images/multi-color-icon.png?raw=true)
 
 # 更新图标
 当您在iconfont.cn中的图标有变更时，只需更改配置`symbol_url`，然后再次执行`Step 4`即可生成最新的图标组件
