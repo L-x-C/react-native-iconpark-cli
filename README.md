@@ -2,7 +2,7 @@
 基于[react-native-iconfont-cli](https://github.com/iconfont-cli/react-native-iconfont-cli)改造，用于适配iconpark
 
 ## react-native-iconpark-cli
-用纯JS把iconpark.oceanengine.com的图标转换成RN组件，不依赖字体，支持多色彩，支持热更新
+用纯JS把[iconpark](https://iconpark.oceanengine.com/)的图标转换成RN组件，不依赖字体，支持多色彩，支持热更新
 
 ![](https://github.com/L-x-C/react-native-iconpark-cli/blob/main/images/icons.png?raw=true)
 
@@ -71,7 +71,7 @@ npx iconpark-init
 请直接复制[iconpark](https://iconpark.oceanengine.com/)官网提供的项目链接。请务必看清是`.js`后缀而不是.css后缀
 <br />
 
-![](https://github.com/L-x-C/react-native-iconpark-cli/blob/main/images/symbol-url.png?raw=true)
+![](https://github.com/L-x-C/react-native-iconpark-cli/blob/main/images/symbol-url2.png?raw=true)
 
 ### use_typescript
 如果您的项目使用Typescript编写，请设置为true。这个选项将决定生成的图标组件是`.tsx`还是`.js`后缀。
