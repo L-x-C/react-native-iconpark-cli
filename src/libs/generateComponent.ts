@@ -33,6 +33,7 @@ const SVG_MAP = {
   rect: 'Rect',
   linearGradient: 'LinearGradient',
   stop: 'Stop',
+  mask: 'Mask',
 };
 
 
