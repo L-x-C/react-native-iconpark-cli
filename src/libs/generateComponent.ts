@@ -34,6 +34,9 @@ const SVG_MAP = {
   linearGradient: 'LinearGradient',
   stop: 'Stop',
   mask: 'Mask',
+  text: 'Text',
+  tspan: 'Tspan',
+  _: '_',
 };
 
 
