@@ -37,6 +37,7 @@ const SVG_MAP = {
   text: 'Text',
   tspan: 'Tspan',
   filter: 'Filter',
+  feColorMatrix: 'FeColorMatrix',
   _: '_',
 };
 
