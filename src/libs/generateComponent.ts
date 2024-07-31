@@ -36,6 +36,7 @@ const SVG_MAP = {
   mask: 'Mask',
   text: 'Text',
   tspan: 'Tspan',
+  filter: 'Filter',
   _: '_',
 };
 
